@@ -22,6 +22,10 @@ public class Persona {
 	this.edad = edad;
     }
 
+    Persona() {
+
+    }
+
     public int getDni() {
 	return dni;
     }
@@ -68,6 +72,11 @@ public class Persona {
 
     public void setEdad(int edad) {
 	this.edad = edad;
+    }
+
+    @Override
+    public String toString() {
+	return "\nNombre = " + nombre + ",\nApellido = " + apellido + ", \nEdad = " + edad ;
     }
     
     
