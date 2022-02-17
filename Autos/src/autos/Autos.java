@@ -47,16 +47,15 @@ public class Autos {
 	    concesionaria.push(auto);
 
 	}
-	
+
 	System.out.println("\n¿Hay un auto rojo en la concesionaria?. ");
-	
-	 if(esRojo){ 
-	     System.out.println("Hay un auto rojo."); 
-	    } 
-	 else
-	 { 
-	     System.out.println("No hay un auto rojo.");
-	 }
+
+	if (esRojo) {
+	    System.out.println("Hay un auto rojo.");
+	}
+	else {
+	    System.out.println("No hay un auto rojo.");
+	}
 
 	// No pude encontrar el auto de color rojo por no poder acceder dentro del 
 	// elemento con el metodo search.
